@@ -31,6 +31,12 @@ pip install -r requirements.txt
 
 ## 📦 Data Preparation & Community Partitions
 
+**Unzip the Data:**
+
+```bash
+unzip datasets.zip
+```
+
 We provide the pre-computed Louvain community partitions for all datasets in the `./dataset/partition/` directory.
 
 
