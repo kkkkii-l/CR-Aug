@@ -1,0 +1,23 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# 虚拟环境
+venv/
+env/
+.conda/
+
+# IDE 配置文件
+.idea/
+.vscode/
+
+# 原始大图数据 (千万别传 .mat，让复现者自己下载)
+dataset/*.mat
+
+# 运行日志和模型权重 (如果有的话)
+logs/
+checkpoints/
+*.pth
+*.pt

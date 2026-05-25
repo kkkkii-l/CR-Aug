@@ -1,0 +1,569 @@
+nohup: ignoring input
+Dataset:  reddit
+Training Counter({np.float64(0.0): 3194, np.float64(1.0): 101})
+Test Counter({np.float64(0.0): 6350, np.float64(1.0): 241})
+Training rate 0.5
+Adj sum: 168016.0
+Starting Community Detection (Loading from cache)...
+Loading from ./dataset/partition/reddit_partition.pkl ...
+success : 0.0015 s
+Detected 16 communities.
+Community risk scores: tensor([0.8687, 0.1100, 0.2950, 0.3300, 1.0000, 0.2892, 0.4961, 0.0926, 0.6551,
+        0.1133, 0.4166, 0.0000, 0.4166, 0.7486, 0.4166, 0.4166],
+       dtype=torch.float64)
+Total Community Step Time: 1.35s
+Converting partition dict to tensor...
+Partition & Risks moved to cuda
+Using CUDA
+
+  0%|          | 0/200 [00:00<?, ?it/s]
+Training:   0%|          | 0/200 [00:00<?, ?it/s]Total time is 0.4739701747894287
+Epoch: 0000 train_loss_bce= 0.69700
+Epoch: 0000 train_loss= 0.69700
+=====================================================================
+Testing reddit AUC:0.5384
+Testing AP: 0.04947165455183991
+Total time is 0.49770116806030273
+Total time is 0.5248286724090576
+Epoch: 0002 train_loss_bce= 0.68793
+Epoch: 0002 train_loss= 0.68793
+=====================================================================
+Total time is 0.546938419342041
+Total time is 0.5741658210754395
+Epoch: 0004 train_loss_bce= 0.67879
+Epoch: 0004 train_loss= 0.67879
+=====================================================================
+Total time is 0.5961861610412598
+Total time is 0.6233000755310059
+Epoch: 0006 train_loss_bce= 0.66754
+Epoch: 0006 train_loss= 0.66754
+=====================================================================
+Total time is 0.6452407836914062
+Total time is 0.6725847721099854
+Epoch: 0008 train_loss_bce= 0.65265
+Epoch: 0008 train_loss= 0.65265
+=====================================================================
+Total time is 0.6947879791259766
+Total time is 0.7222912311553955
+Epoch: 0010 train_loss_bce= 0.63474
+Epoch: 0010 train_loss= 0.63474
+=====================================================================
+Testing reddit AUC:0.5344
+Testing AP: 0.051447628855952776
+Total time is 0.7442541122436523
+Total time is 0.7714176177978516
+Epoch: 0012 train_loss_bce= 0.61380
+Epoch: 0012 train_loss= 0.61380
+=====================================================================
+Total time is 0.7933938503265381
+Total time is 0.8205466270446777
+Epoch: 0014 train_loss_bce= 0.59248
+Epoch: 0014 train_loss= 0.59248
+=====================================================================
+Total time is 0.842482328414917
+Total time is 0.8696079254150391
+Epoch: 0016 train_loss_bce= 0.57560
+Epoch: 0016 train_loss= 0.57560
+=====================================================================
+Total time is 0.8930859565734863
+Total time is 0.920020341873169
+Epoch: 0018 train_loss_bce= 0.56377
+Epoch: 0018 train_loss= 0.56377
+=====================================================================
+Total time is 0.9419746398925781
+Total time is 0.9693384170532227
+Epoch: 0020 train_loss_bce= 0.55248
+Epoch: 0020 train_loss= 0.55248
+=====================================================================
+Testing reddit AUC:0.5350
+Testing AP: 0.051141108418854525
+Total time is 0.9914877414703369
+Total time is 1.018510103225708
+Epoch: 0022 train_loss_bce= 0.54207
+Epoch: 0022 train_loss= 0.54207
+=====================================================================
+Total time is 1.0404915809631348
+Total time is 1.0676467418670654
+Epoch: 0024 train_loss_bce= 0.53051
+Epoch: 0024 train_loss= 0.53051
+=====================================================================
+Total time is 1.0896391868591309
+Total time is 1.1168076992034912
+Epoch: 0026 train_loss_bce= 0.51296
+Epoch: 0026 train_loss= 0.51296
+=====================================================================
+Total time is 1.1387267112731934
+Total time is 1.166128158569336
+Epoch: 0028 train_loss_bce= 0.49609
+Epoch: 0028 train_loss= 0.49609
+=====================================================================
+Total time is 1.1881396770477295
+Total time is 1.2153983116149902
+Epoch: 0030 train_loss_bce= 0.48077
+Epoch: 0030 train_loss= 0.48077
+=====================================================================
+Testing reddit AUC:0.5360
+Testing AP: 0.0510397682357631
+Total time is 1.2373480796813965
+Total time is 1.2645418643951416
+Epoch: 0032 train_loss_bce= 0.46202
+Epoch: 0032 train_loss= 0.46202
+=====================================================================
+Total time is 1.2865557670593262
+Total time is 1.3137197494506836
+Epoch: 0034 train_loss_bce= 0.44280
+Epoch: 0034 train_loss= 0.44280
+=====================================================================
+Total time is 1.3356328010559082
+Total time is 1.3630256652832031
+Epoch: 0036 train_loss_bce= 0.42843
+Epoch: 0036 train_loss= 0.42843
+=====================================================================
+Total time is 1.3852262496948242
+Total time is 1.412621259689331
+Epoch: 0038 train_loss_bce= 0.40920
+Epoch: 0038 train_loss= 0.40920
+=====================================================================
+Total time is 1.4347939491271973
+Total time is 1.4617369174957275
+Epoch: 0040 train_loss_bce= 0.38534
+Epoch: 0040 train_loss= 0.38534
+=====================================================================
+Testing reddit AUC:0.5348
+Testing AP: 0.050993283643502016
+Total time is 1.4837000370025635
+Total time is 1.5108866691589355
+Epoch: 0042 train_loss_bce= 0.36742
+Epoch: 0042 train_loss= 0.36742
+=====================================================================
+Total time is 1.53285551071167
+Total time is 1.5602786540985107
+Epoch: 0044 train_loss_bce= 0.34647
+Epoch: 0044 train_loss= 0.34647
+=====================================================================
+Total time is 1.583543062210083
+Total time is 1.6108291149139404
+Epoch: 0046 train_loss_bce= 0.32768
+Epoch: 0046 train_loss= 0.32768
+=====================================================================
+Total time is 1.6328020095825195
+Total time is 1.6602039337158203
+Epoch: 0048 train_loss_bce= 0.30887
+Epoch: 0048 train_loss= 0.30887
+=====================================================================
+Total time is 1.6823914051055908
+Total time is 1.709484577178955
+Epoch: 0050 train_loss_bce= 0.28985
+Epoch: 0050 train_loss= 0.28985
+=====================================================================
+Testing reddit AUC:0.5353
+Testing AP: 0.05050148566639535
+Total time is 1.7313868999481201
+Total time is 1.7585644721984863
+Epoch: 0052 train_loss_bce= 0.26692
+Epoch: 0052 train_loss= 0.26692
+=====================================================================
+Total time is 1.7805542945861816
+Total time is 1.8078351020812988
+Epoch: 0054 train_loss_bce= 0.25394
+Epoch: 0054 train_loss= 0.25394
+=====================================================================
+Total time is 1.8298611640930176
+Total time is 1.8571982383728027
+Epoch: 0056 train_loss_bce= 0.22947
+Epoch: 0056 train_loss= 0.22947
+=====================================================================
+Total time is 1.8792610168457031
+Total time is 1.9063959121704102
+Epoch: 0058 train_loss_bce= 0.21838
+Epoch: 0058 train_loss= 0.21838
+=====================================================================
+Total time is 1.9284594058990479
+Total time is 1.9558274745941162
+Epoch: 0060 train_loss_bce= 0.19677
+Epoch: 0060 train_loss= 0.19677
+=====================================================================
+Testing reddit AUC:0.5376
+Testing AP: 0.05108593537691598
+Total time is 1.9777910709381104
+Total time is 2.0052170753479004
+Epoch: 0062 train_loss_bce= 0.17772
+Epoch: 0062 train_loss= 0.17772
+=====================================================================
+Total time is 2.0272819995880127
+Total time is 2.054650068283081
+Epoch: 0064 train_loss_bce= 0.16726
+Epoch: 0064 train_loss= 0.16726
+=====================================================================
+Total time is 2.076692581176758
+Total time is 2.1037425994873047
+Epoch: 0066 train_loss_bce= 0.15042
+Epoch: 0066 train_loss= 0.15042
+=====================================================================
+Total time is 2.12565541267395
+Total time is 2.1527602672576904
+Epoch: 0068 train_loss_bce= 0.13897
+Epoch: 0068 train_loss= 0.13897
+=====================================================================
+Total time is 2.174722909927368
+Total time is 2.2018754482269287
+Epoch: 0070 train_loss_bce= 0.12721
+Epoch: 0070 train_loss= 0.12721
+=====================================================================
+Testing reddit AUC:0.5398
+Testing AP: 0.05122700710983573
+Total time is 2.224001169204712
+Total time is 2.251378059387207
+Epoch: 0072 train_loss_bce= 0.12375
+Epoch: 0072 train_loss= 0.12375
+=====================================================================
+Total time is 2.27356219291687
+Total time is 2.300736665725708
+Epoch: 0074 train_loss_bce= 0.10806
+Epoch: 0074 train_loss= 0.10806
+=====================================================================
+Total time is 2.322821855545044
+Total time is 2.349817991256714
+Epoch: 0076 train_loss_bce= 0.10467
+Epoch: 0076 train_loss= 0.10467
+=====================================================================
+Total time is 2.373600959777832
+Total time is 2.4007697105407715
+Epoch: 0078 train_loss_bce= 0.08913
+Epoch: 0078 train_loss= 0.08913
+=====================================================================
+Total time is 2.422968864440918
+Total time is 2.449967861175537
+Epoch: 0080 train_loss_bce= 0.07788
+Epoch: 0080 train_loss= 0.07788
+=====================================================================
+Testing reddit AUC:0.5411
+Testing AP: 0.05025026559628577
+Total time is 2.471874952316284
+Total time is 2.4990651607513428
+Epoch: 0082 train_loss_bce= 0.07440
+Epoch: 0082 train_loss= 0.07440
+=====================================================================
+Total time is 2.521023988723755
+Total time is 2.548410415649414
+Epoch: 0084 train_loss_bce= 0.06581
+Epoch: 0084 train_loss= 0.06581
+=====================================================================
+Total time is 2.570512056350708
+Total time is 2.5978126525878906
+Epoch: 0086 train_loss_bce= 0.06580
+Epoch: 0086 train_loss= 0.06580
+=====================================================================
+Total time is 2.6199097633361816
+Total time is 2.6469743251800537
+Epoch: 0088 train_loss_bce= 0.05493
+Epoch: 0088 train_loss= 0.05493
+=====================================================================
+Total time is 2.6689140796661377
+Total time is 2.696040630340576
+Epoch: 0090 train_loss_bce= 0.05588
+Epoch: 0090 train_loss= 0.05588
+=====================================================================
+Testing reddit AUC:0.5479
+Testing AP: 0.05057255712879079
+Total time is 2.718083620071411
+Total time is 2.7454833984375
+Epoch: 0092 train_loss_bce= 0.04861
+Epoch: 0092 train_loss= 0.04861
+=====================================================================
+Total time is 2.7675817012786865
+Total time is 2.794874668121338
+Epoch: 0094 train_loss_bce= 0.04740
+Epoch: 0094 train_loss= 0.04740
+=====================================================================
+Total time is 2.8169491291046143
+Total time is 2.8440139293670654
+Epoch: 0096 train_loss_bce= 0.04555
+Epoch: 0096 train_loss= 0.04555
+=====================================================================
+Total time is 2.8659603595733643
+Total time is 2.893134355545044
+Epoch: 0098 train_loss_bce= 0.04437
+Epoch: 0098 train_loss= 0.04437
+=====================================================================
+Total time is 2.9150941371917725
+Total time is 2.94235897064209
+Epoch: 0100 train_loss_bce= 0.03459
+Epoch: 0100 train_loss= 0.03459
+=====================================================================
+Testing reddit AUC:0.5518
+Testing AP: 0.05078343509634119
+Total time is 2.964459180831909
+Total time is 2.991537094116211
+Epoch: 0102 train_loss_bce= 0.04048
+Epoch: 0102 train_loss= 0.04048
+=====================================================================
+Total time is 3.0136373043060303
+Total time is 3.0407533645629883
+Epoch: 0104 train_loss_bce= 0.03540
+Epoch: 0104 train_loss= 0.03540
+=====================================================================
+Total time is 3.0626749992370605
+Total time is 3.0897908210754395
+Epoch: 0106 train_loss_bce= 0.03182
+Epoch: 0106 train_loss= 0.03182
+=====================================================================
+Total time is 3.111747980117798
+Total time is 3.139052391052246
+Epoch: 0108 train_loss_bce= 0.03406
+Epoch: 0108 train_loss= 0.03406
+=====================================================================
+Total time is 3.1611196994781494
+Total time is 3.1886332035064697
+Epoch: 0110 train_loss_bce= 0.02685
+Epoch: 0110 train_loss= 0.02685
+=====================================================================
+Testing reddit AUC:0.5963
+Testing AP: 0.053539988140174744
+Total time is 3.2106809616088867
+Total time is 3.2378594875335693
+Epoch: 0112 train_loss_bce= 0.02871
+Epoch: 0112 train_loss= 0.02871
+=====================================================================
+Total time is 3.2598347663879395
+Total time is 3.2870030403137207
+Epoch: 0114 train_loss_bce= 0.02305
+Epoch: 0114 train_loss= 0.02305
+=====================================================================
+Total time is 3.309584856033325
+Total time is 3.336923599243164
+Epoch: 0116 train_loss_bce= 0.02145
+Epoch: 0116 train_loss= 0.02145
+=====================================================================
+Total time is 3.358992576599121
+Total time is 3.386357307434082
+Epoch: 0118 train_loss_bce= 0.02142
+Epoch: 0118 train_loss= 0.02142
+=====================================================================
+Total time is 3.408393621444702
+
+[Epoch 120] Updating Community Risk Scores using learned embeddings...
+Total time is 3.4804749488830566
+Epoch: 0120 train_loss_bce= 0.02023
+Epoch: 0120 train_loss= 0.02023
+=====================================================================
+Testing reddit AUC:0.6729
+Testing AP: 0.0765638984679218
+Total time is 3.502775192260742
+Total time is 3.5301477909088135
+Epoch: 0122 train_loss_bce= 0.01888
+Epoch: 0122 train_loss= 0.01888
+=====================================================================
+Total time is 3.5523874759674072
+Total time is 3.5793983936309814
+Epoch: 0124 train_loss_bce= 0.01694
+Epoch: 0124 train_loss= 0.01694
+=====================================================================
+Total time is 3.6013519763946533
+Total time is 3.628481388092041
+Epoch: 0126 train_loss_bce= 0.01676
+Epoch: 0126 train_loss= 0.01676
+=====================================================================
+Total time is 3.6503617763519287
+Total time is 3.6776158809661865
+Epoch: 0128 train_loss_bce= 0.01820
+Epoch: 0128 train_loss= 0.01820
+=====================================================================
+Total time is 3.699604034423828
+Total time is 3.7271134853363037
+Epoch: 0130 train_loss_bce= 0.01762
+Epoch: 0130 train_loss= 0.01762
+=====================================================================
+Testing reddit AUC:0.6576
+Testing AP: 0.07019565844294523
+Total time is 3.749040126800537
+Total time is 3.776196241378784
+Epoch: 0132 train_loss_bce= 0.01636
+Epoch: 0132 train_loss= 0.01636
+=====================================================================
+Total time is 3.798114061355591
+Total time is 3.8252384662628174
+Epoch: 0134 train_loss_bce= 0.01307
+Epoch: 0134 train_loss= 0.01307
+=====================================================================
+Total time is 3.847179412841797
+Total time is 3.8747029304504395
+Epoch: 0136 train_loss_bce= 0.01533
+Epoch: 0136 train_loss= 0.01533
+=====================================================================
+Total time is 3.896824598312378
+Total time is 3.924221992492676
+Epoch: 0138 train_loss_bce= 0.01520
+Epoch: 0138 train_loss= 0.01520
+=====================================================================
+Total time is 3.946293830871582
+
+[Epoch 140] Updating Community Risk Scores using learned embeddings...
+Total time is 3.9814724922180176
+Epoch: 0140 train_loss_bce= 0.01460
+Epoch: 0140 train_loss= 0.01460
+=====================================================================
+Testing reddit AUC:0.6518
+Testing AP: 0.06538126715857887
+Total time is 4.003369569778442
+Total time is 4.0306243896484375
+Epoch: 0142 train_loss_bce= 0.01145
+Epoch: 0142 train_loss= 0.01145
+=====================================================================
+Total time is 4.052650451660156
+Total time is 4.080108642578125
+Epoch: 0144 train_loss_bce= 0.01196
+Epoch: 0144 train_loss= 0.01196
+=====================================================================
+Total time is 4.1023430824279785
+Total time is 4.129358291625977
+Epoch: 0146 train_loss_bce= 0.01137
+Epoch: 0146 train_loss= 0.01137
+=====================================================================
+Total time is 4.151172876358032
+Total time is 4.1782801151275635
+Epoch: 0148 train_loss_bce= 0.01097
+Epoch: 0148 train_loss= 0.01097
+=====================================================================
+Total time is 4.200878381729126
+Total time is 4.228213310241699
+Epoch: 0150 train_loss_bce= 0.01003
+Epoch: 0150 train_loss= 0.01003
+
+Training:   0%|          | 0/200 [00:06<?, ?it/s]
+=====================================================================
+Testing reddit AUC:0.6574
+Testing AP: 0.069687509270985
+Total time is 4.2501490116119385
+Total time is 4.277285575866699
+Epoch: 0152 train_loss_bce= 0.00921
+Epoch: 0152 train_loss= 0.00921
+=====================================================================
+Total time is 4.299294710159302
+Total time is 4.326529502868652
+Epoch: 0154 train_loss_bce= 0.00938
+Epoch: 0154 train_loss= 0.00938
+=====================================================================
+Total time is 4.348422527313232
+Total time is 4.375836610794067
+Epoch: 0156 train_loss_bce= 0.00909
+Epoch: 0156 train_loss= 0.00909
+=====================================================================
+Total time is 4.397941589355469
+Total time is 4.4253387451171875
+Epoch: 0158 train_loss_bce= 0.00816
+Epoch: 0158 train_loss= 0.00816
+=====================================================================
+Total time is 4.447451591491699
+
+[Epoch 160] Updating Community Risk Scores using learned embeddings...
+Total time is 4.482578754425049
+Epoch: 0160 train_loss_bce= 0.00799
+Epoch: 0160 train_loss= 0.00799
+=====================================================================
+Testing reddit AUC:0.6574
+Testing AP: 0.06935593848683813
+Total time is 4.504616737365723
+Total time is 4.532081365585327
+Epoch: 0162 train_loss_bce= 0.00839
+Epoch: 0162 train_loss= 0.00839
+=====================================================================
+Total time is 4.554283857345581
+Total time is 4.581927537918091
+Epoch: 0164 train_loss_bce= 0.00770
+Epoch: 0164 train_loss= 0.00770
+=====================================================================
+Total time is 4.604130744934082
+Total time is 4.631021022796631
+Epoch: 0166 train_loss_bce= 0.00922
+Epoch: 0166 train_loss= 0.00922
+=====================================================================
+Total time is 4.652975797653198
+Total time is 4.680096387863159
+Epoch: 0168 train_loss_bce= 0.00723
+Epoch: 0168 train_loss= 0.00723
+=====================================================================
+Total time is 4.702011585235596
+Total time is 4.729303598403931
+Epoch: 0170 train_loss_bce= 0.00759
+Epoch: 0170 train_loss= 0.00759
+=====================================================================
+Testing reddit AUC:0.6549
+Testing AP: 0.06787829006843776
+Total time is 4.751446962356567
+Total time is 4.778877019882202
+Epoch: 0172 train_loss_bce= 0.00693
+Epoch: 0172 train_loss= 0.00693
+=====================================================================
+Total time is 4.800911903381348
+Total time is 4.827914476394653
+Epoch: 0174 train_loss_bce= 0.00676
+Epoch: 0174 train_loss= 0.00676
+=====================================================================
+Total time is 4.849870920181274
+Total time is 4.877119302749634
+Epoch: 0176 train_loss_bce= 0.00587
+Epoch: 0176 train_loss= 0.00587
+=====================================================================
+Total time is 4.899136543273926
+Total time is 4.926554441452026
+Epoch: 0178 train_loss_bce= 0.00672
+Epoch: 0178 train_loss= 0.00672
+=====================================================================
+Total time is 4.948642015457153
+
+[Epoch 180] Updating Community Risk Scores using learned embeddings...
+Total time is 4.984025239944458
+Epoch: 0180 train_loss_bce= 0.00611
+Epoch: 0180 train_loss= 0.00611
+=====================================================================
+Testing reddit AUC:0.6531
+Testing AP: 0.0664680521981089
+Total time is 5.005916357040405
+Total time is 5.033876657485962
+Epoch: 0182 train_loss_bce= 0.00605
+Epoch: 0182 train_loss= 0.00605
+=====================================================================
+Total time is 5.055952548980713
+Total time is 5.083339214324951
+Epoch: 0184 train_loss_bce= 0.00582
+Epoch: 0184 train_loss= 0.00582
+=====================================================================
+Total time is 5.1054527759552
+Total time is 5.135632514953613
+Epoch: 0186 train_loss_bce= 0.00583
+Epoch: 0186 train_loss= 0.00583
+=====================================================================
+Total time is 5.157816171646118
+Total time is 5.185254096984863
+Epoch: 0188 train_loss_bce= 0.00581
+Epoch: 0188 train_loss= 0.00581
+=====================================================================
+Total time is 5.20745587348938
+Total time is 5.234859228134155
+Epoch: 0190 train_loss_bce= 0.00650
+Epoch: 0190 train_loss= 0.00650
+=====================================================================
+Testing reddit AUC:0.6486
+Testing AP: 0.06310606021513886
+Total time is 5.256795644760132
+Total time is 5.284007549285889
+Epoch: 0192 train_loss_bce= 0.00612
+Epoch: 0192 train_loss= 0.00612
+=====================================================================
+Total time is 5.30609130859375
+Total time is 5.333312273025513
+Epoch: 0194 train_loss_bce= 0.00633
+Epoch: 0194 train_loss= 0.00633
+=====================================================================
+Total time is 5.355407238006592
+Total time is 5.382855653762817
+Epoch: 0196 train_loss_bce= 0.00457
+Epoch: 0196 train_loss= 0.00457
+=====================================================================
+Total time is 5.404979944229126
+Total time is 5.432107448577881
+Epoch: 0198 train_loss_bce= 0.00504
+Epoch: 0198 train_loss= 0.00504
+=====================================================================
+Total time is 5.454186916351318
